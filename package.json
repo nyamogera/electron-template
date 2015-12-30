@@ -1,0 +1,24 @@
+{
+  "name": "electron-template",
+  "version": "0.0.0",
+  "description": "my electron app",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production gulp serve"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "nyamogera <nyamogera＠gmail.com> (nyamogera.net)",
+  "license": "MIT",
+  "dependencies": {
+    "electron-connect": "^0.3.4",
+    "electron-prebuilt": "^0.36.2",
+    "electron-window-state": "^2.0.0",
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp-preprocess": "^2.0.0"
+  }
+}
